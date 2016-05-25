@@ -1,0 +1,15 @@
+{
+  "name": "tabe25m",
+  "main": "./lib/tabe25m",
+  "version": "0.0.0",
+  "description": "TAKE A BREAK EVERY 25 MINUTES",
+  "keywords": [
+  ],
+  "repository": "https://github.com/dtinth/tabe25m",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

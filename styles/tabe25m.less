@@ -1,0 +1,27 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.tabe25m-view {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999999999;
+  pointer-events: none;
+  background: fadeout(@app-background-color, 0%);
+  color: @text-color;
+  text-align: center;
+  font-size: 5vw;
+  transition: 1s opacity linear;
+  > div {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+  }
+}
