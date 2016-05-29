@@ -1,0 +1,9 @@
+'menu': [
+  'label': 'Packages'
+  'submenu': [
+    'label': 'TABE25M'
+    'submenu': [
+      { 'label': 'TAKE A BREAK RIGHT MEOW!!!!', 'command': 'tabe25m:ima-desho' }
+    ]
+  ]
+]
